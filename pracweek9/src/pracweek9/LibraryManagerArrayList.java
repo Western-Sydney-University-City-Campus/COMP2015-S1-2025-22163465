@@ -1,3 +1,7 @@
+/*
+ * Name: Dikshant karki
+ * Student ID: 22163465
+ */
 package pracweek9;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,8 +10,7 @@ import java.util.Scanner;
 
 public class LibraryManagerArrayList {
     /**
-     * Main method to manage library operations
-     * @param args Command line arguments (not used)
+     * @param args Command line arguments 
      * @throws FileNotFoundException 
      */
     public static void main(String[] args) throws FileNotFoundException {
@@ -24,7 +27,6 @@ public class LibraryManagerArrayList {
     }
 
     /**
-     * Reads book data from file into ArrayList
      * @param filename Name of the file to read from
      * @param books ArrayList to store Book objects
      * @throws FileNotFoundException 
@@ -44,7 +46,7 @@ public class LibraryManagerArrayList {
     }
 
     /**
-     * Reads patron data from file into ArrayList
+     
      * @param filename Name of the file to read from
      * @param patrons ArrayList to store Patron objects
      * @throws FileNotFoundException 

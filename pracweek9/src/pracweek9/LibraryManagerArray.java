@@ -1,3 +1,7 @@
+/*
+ * Name: Dikshant karki
+ * Student ID: 22163465
+ */
 package pracweek9;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,18 +11,14 @@ public class LibraryManagerArray {
     private static final int MAX_BOOKS = 20;
     private static final int MAX_PATRONS = 9;
 
-    /**
-     * Main method to manage library operations
-     * @param args Command line arguments (not used)
-     * @throws FileNotFoundException 
-     */
+    
     public static void main(String[] args) throws FileNotFoundException {
         Book[] books = new Book[MAX_BOOKS];
         Patron[] patrons = new Patron[MAX_PATRONS];
         
-        // Read book data
+        // BOOK DATA READ
         int bookCount = readBooksFromFile("booklist.csv", books);
-        // Read patron data
+        // PATRON DATA READ
         int patronCount = readPatronsFromFile("patronlist.csv", patrons);
         
         // Display summary
@@ -26,11 +26,10 @@ public class LibraryManagerArray {
     }
 
     /**
-     * Reads book data from file into array
+    
      * @param filename Name of the file to read from
      * @param books Array to store Book objects
      * @return Number of books read
-     * @throws FileNotFoundException 
      */
     private static int readBooksFromFile(String filename, Book[] books) throws FileNotFoundException {
         int count = 0;
@@ -49,12 +48,10 @@ public class LibraryManagerArray {
         return count;
     }
 
-    /**
-     * Reads patron data from file into arraySJNDJSN
+    /**  
      * @param filename Name of the file to read from
      * @param patrons Array to store Patron objects
      * @return Number of patrons read
-     * @throws FileNotFoundException 
      */
     private static int readPatronsFromFile(String filename, Patron[] patrons) throws FileNotFoundException {
         int count = 0;
@@ -74,7 +71,6 @@ public class LibraryManagerArray {
     }
 
     /**
-     * Displays summary of library data
      * @param books Array of Book objects
      * @param bookCount Number of books in array
      * @param patrons Array of Patron objects

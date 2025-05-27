@@ -96,8 +96,7 @@ public class NumberArray_22163465 {
         int count;
         
         /**
-         * Constructor to create a new ArrayResult object.
-         * 
+         
          * @param array The array of numbers
          * @param count The count of numbers in the array
          */
@@ -156,7 +155,7 @@ public class NumberArray_22163465 {
     
     /**
      * Calculates the sum of all values in the array.
-     * Only considers elements up to the logical end of the array (count).
+     
      * 
      * @param numbers The array of numbers
      * @param count The count of numbers to consider in the array
@@ -176,9 +175,8 @@ public class NumberArray_22163465 {
     }
     
     /**
-     * Calculates the average (mean) of all values in the array.
-     * Only considers elements up to the logical end of the array (count).
-     * 
+     * Calculates the average of all values in the array.
+    
      * @param numbers The array of numbers
      * @param count The count of numbers to consider in the array
      * @return The average of all values in the array, or 0.0 if the array is empty
@@ -202,8 +200,7 @@ public class NumberArray_22163465 {
     
     /**
      * Displays the contents of the array to the console.
-     * Only displays elements up to the logical end of the array (count).
-     * 
+    
      * @param numbers The array of numbers
      * @param count The count of numbers to display from the array
      */
@@ -223,8 +220,7 @@ public class NumberArray_22163465 {
     
     /**
      * Writes the contents of the array to a file named "numbersoutput.txt".
-     * Only writes elements up to the logical end of the array (count).
-     * 
+     
      * @param numbers The array of numbers
      * @param count The count of numbers to write from the array
      * @return true if the file was successfully created and written, false otherwise
